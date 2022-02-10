@@ -27,8 +27,6 @@
     <button onclick="clicar()">Comprar Produto</button>
     <script>
         function clicar() {
-            let numero = preço, valor
-            var dinheiro = numero.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
             let produto = window.prompt('Que produto você está comprando?')
             let preço = window.prompt(`Quanto custa o ${produto} que você está comprando?`)
             let valor = window.prompt(`Qual foi o valor que você deu pra pagar o ${produto}?`)
